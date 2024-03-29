@@ -1,0 +1,39 @@
+@media only screen and (max-width: 768px) {
+  .navigation {
+    width: 100%;
+  }
+  .navigation .nav a {
+    display: none;
+  }
+  .navigation .fa-solid {
+    display: block;
+  }
+  .header .banner {
+    width: 100%;
+    height: 100vh;
+  }
+  .header .banner p {
+    width: 100%;
+  }
+  .header .banner h1 {
+    text-align: center;
+  }
+  .swiper p {
+    width: 100%;
+  }
+  .about__content {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .our .our__conatiner {
+    grid-template-columns: 1fr;
+  }
+  .blog .blog__container {
+    grid-template-columns: 1fr;
+  }
+  .contact p {
+    width: 100%;
+  }
+  .footer .footer__content {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}/*# sourceMappingURL=responsiv.css.map */
